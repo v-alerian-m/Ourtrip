@@ -1,0 +1,460 @@
+@charset "utf-8";
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* CONTENT */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 100%;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	position: relative;
+	height: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+	"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.625em; /*26px*/
+	-webkit-font-smoothing: antialiased;
+}
+
+/* links */
+/* -----------------------------------------------------*/
+
+a {
+	text-decoration: none;
+	color: #D35F60;
+}
+
+a:active,
+a:hover,
+a:focus {
+	color: #934243;
+}
+
+/* typographie */
+/* -----------------------------------------------------*/
+
+h1, .h1-like, 
+h2, .h2-like, 
+h3, .h3-like, 
+h4, .h4-like, 
+h5, .h5-like, 
+h6, .h6-like {
+	font-weight: 700;
+	color: #1C1F26;
+	margin: 0 0 0.71875em 0;
+	line-height: 1.25em;
+}
+
+h1, .h1-like {
+	font-size: 2em;
+}
+h2, .h2-like {
+	font-size: 1.75em;
+}
+h3, .h3-like {
+	font-size: 1.5em;
+}
+h4, .h4-like {
+	font-size: 1.25em;
+}
+h5, .h5-like {
+	font-size: 1.125em;
+}
+h6, .h6-like {
+	font-size: 1em;
+}
+p {
+	margin: 0 0 0.71875em 0;
+}
+/* Grouping content */
+/*---------------------------------------------------*/
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+
+}
+/* -----------------------------------------------------*/
+/* CONTENT */
+/* -----------------------------------------------------*/
+
+.container0 {
+	margin: 0 auto;
+	max-width: 95%;
+}
+
+.container{
+	margin: 0 auto;
+	max-width:1080px;
+}
+
+.row{
+	display: flex;
+}
+.col-3{width:25%;}
+.col-4{width:33.333333%;}
+.col-6{width:50%;}
+.col-8{width:66.666666%;}
+.col-9{width:75%;}
+.col-12{width:100%;}
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* HEADER */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+
+
+header {
+	background-color: #0000003a;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+    z-index: 999;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.233);
+}
+
+.logosize {
+	max-width: 113px;
+}
+
+.logotyposize {
+	max-width: 80px;
+}
+
+header .logo{
+	line-height: 50px;
+}
+
+header .logo img {
+	margin-top: 4px;
+	vertical-align: middle;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	display:inline-block;
+}
+
+header nav ul li a {
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 5px 10px;
+	line-height: 60px; 
+}
+
+header nav ul li a:hover {
+	color: #1abc9c;
+	text-decoration: none;
+}
+
+header #main {
+	margin-left: 50px;
+	flex-grow: 2;
+}
+
+header #social {
+	text-align: right;
+}
+
+#top-ad {
+	margin-top: 100px; 
+	padding: 40px 0;
+	text-align: center;
+}
+
+header .dropdown {
+	display: contents;
+	color: white;
+}
+
+header .dropdown:hover {
+	display: contents;
+	color: #1abc9c;
+
+}
+.dropdown-right{
+	right:120px;
+	left:auto !important;
+}
+
+.dropdown-right-2{
+	right:90px;
+	left:auto !important;
+}
+
+.fa-bars {
+	margin-right: 30px;
+	font-size: 25px;
+	padding-top: 17px;
+}
+
+.fa-user-circle {
+	margin-right: 30px;
+	font-size: 25px;
+	padding-top: 17px;
+}
+
+.dropdown-item {
+	color: #1abc9c !important;
+}	
+
+.fa-power-off {
+	margin-left: 10px;
+	font-weight: 200;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* SECTION 1 */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+
+.section1 {
+    background: url(../img/camtar.jpg) no-repeat center center fixed;
+    background-size: cover;
+	display: block;
+}
+
+.emptyspace {
+    height: 250px;
+}
+
+
+.section1 h1 {
+    background-color: rgba(28, 31, 38, 0);
+    color: #1abc9c;
+    font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+}
+  
+.displaybigwindow {
+    flex-wrap: wrap;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.part0 {
+	display: flex;
+	justify-content: center;
+}
+
+.part1 {
+	display: flex;
+	justify-content: space-between;
+    margin-top: 15px;
+}
+
+  
+.card-title {
+	color: #1abc9c;
+	border-bottom: solid 1px #1abc9c;
+	padding-bottom: 5px;
+}
+
+.card-title-big {
+	color: #1abc9c;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.card-text-big {
+	padding: 0px 10px;
+	text-align: center;
+	color: white;
+}
+
+
+.btn-primary {
+	background-color: #1abc9c !important;
+	border: none !important;
+}
+
+.btn-primary:hover {
+	background-color: #1beec4 !important;
+	border: none !important;
+}
+
+.bigvalidation .btn-primary {
+	font-size: 50px;
+	margin: 0px 15px;
+	padding: 0px 10px; 
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+	background-color: #1abc9c !important;
+	border-color: #1abc9c !important;
+}
+
+.fa-car {
+	margin-left: 8px;
+}
+.fa-plane {
+	margin-left: 8px;
+}
+.fa-ship {
+	margin-left: 8px;
+}
+.fa-bus {
+	margin-left: 8px;
+}
+.fa-subway {
+	margin-left: 8px;
+}
+.fa-bicycle {
+	margin-left: 8px;
+}
+
+.part0 {
+	margin-top: 15px;
+}
+
+.part0 .fa-check-double {
+	width: 700px;
+	font-size: 20px;
+	margin-top: 3px;
+	
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* FOOTER */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+
+.footer {
+	background-color: #1abc9c;
+}
+
+footer .col-3{
+	margin: 90px 0px;
+	font-weight: 500;
+
+}
+
+footer h5 {
+	color: white;
+	margin-bottom: 17px;
+}
+
+footer i {
+	font-size: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+footer p {
+	color: black;
+	font-weight: 400;
+}
+footer p:hover {
+	color: rgb(255, 255, 255);
+	font-weight: 400;
+}
+footer a:hover {
+	color: rgb(255, 255, 255);
+	font-weight: 400;
+	text-decoration: none;
+	border: none !important;
+}
+
+footer .mentionslegales {
+	text-align: center;
+	font-size: 11px;
+}
+
+footer .fa-facebook:hover {
+    font-size: 30px;
+    color: #3F5996;
+}
+footer .fa-twitter-square:hover {
+    font-size: 30px;
+    color: #35A1F0;
+}
+footer .fa-linkedin:hover {
+    font-size: 30px;
+    color: #1D74B1
+}
+footer .fa-android:hover {
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+}
+footer .fa-apple:hover {
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+}
+
+.socialfooter {
+    margin-bottom: 15px;
+}
+
+.conditionsgenerales1 {
+	margin: 0 !important;
+}
+.conditionsgenerales2 {
+	margin: 0 !important;
+	padding-bottom: 3px;
+}
+.conditionsgenerales1:hover {
+	color: black;
+}
+.conditionsgenerales2:hover {
+	color: black;
+}

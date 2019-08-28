@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ourtrip</title>
+        <meta name="description" content="Ma description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/profil.css">
+        <script src="js/java.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+<body>
+
+    
+<header>
+    <div class="container0">
+        <div class="row">
+            <div class="logo">
+                <a href="index.html"><img src="img/04.png" class="logosize" alt=""></a>
+            </div>
+            <nav id="main">
+                <ul>
+                    <li></li>
+                </ul>
+            </nav>
+            <nav id="social">
+                <ul>
+                    <li>
+                        <div class="position-relative dropdown">
+                            <i class="fas fa-user-circle" id="dropdownMenuButton" data-display="static" data-toggle="dropdown"
+                                aria-expanded="false"></i>
+                            <div class="dropdown-menu dropdown-right" data-boundary="dd" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="profil.html">Profil</a>
+                                <a class="dropdown-item" href="nouvelleannonce.html">Nouvelle annonce</a>
+                                <a class="dropdown-item" href="mesreservations.html">Mes réservations</a>
+                                <a class="dropdown-item" href="#">Se déconnecter<i class="fas fa-power-off"></i></a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <i class="fas fa-bars" id="dropdownMenuButton2" data-display="static" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"></i>
+                            <div class="dropdown-menu dropdown-right-2" aria-labelledby="dropdownMenuButton2">
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                                <a class="dropdown-item" href="partenaires.html">Partenaires</a>
+                                <a class="dropdown-item" href="help.html">Aide</a>
+                                <a class="dropdown-item" href="mentionslegales.html">Mentions Légales</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+
+<section class="section1">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home0" role="tab" aria-controls="home" aria-selected="true"><i class="far fa-user"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile0" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-cogs"></i></a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home0" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">                                 
+                                <div class="profilname">
+                                    <img class="profilpic" src="https://via.placeholder.com/100x100" alt="Card image cap">
+                                    <div class="nameandsurname">
+                                        <p class="name">Nom Delanonceur</p>
+                                        <p class="surname">surnom</p>
+                                        <p class="age">14 ans</p>
+                                    </div>    
+                                </div>
+                                <div class="infosflex"><p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus et nobis officia dignissimos! Ipsa, odit.</p></div>
+                                <div class="infosflex"><i class="fas fa-map-marker-alt"></i><p class="location">Mérignac</p></div>
+                                <div class="infosflex"><i class="fas fa-mobile-alt"></i><p class="phonenumber">06.55.78.25.14</p></div>
+                                <div class="infosflex"><i class="fas fa-envelope"></i><p class="email">mahin.truc@gmail.com</p></div>
+                                <div class="infosflex"><i class="fas fa-key"></i><p class="password">password15421</p></div>
+                                <div class="socialmedias"><i class="fab fa-facebook"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i></div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile0" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">                                 
+                                <div class="profilpicgears"><img class="profilpicgear" src="https://via.placeholder.com/100x100" alt="Card image cap"><a class="gear" href=""><i class="fas fa-cogs"></i></a></div>
+                                    <div>
+                                        <form action="/action_page.php">
+                                            <div class="part-form"> 
+                                                <label for="fname">First Name</label>
+                                                <div style="display: flex;" class="ligneformulaire"><input type="text" id="fname" name="firstname" placeholder="Your name.."><input  class="submitbutton" type="submit" value="Submit"></div>
+                                            </div>
+                                            <div class="part-form"> 
+                                                <label for="fname">Last Name</label>
+                                                <div style="display: flex;" class="ligneformulaire"><input type="text" id="fname" name="lastname" placeholder="Your last name.."><input  class="submitbutton" type="submit" value="Submit"></div>                                                                   
+                                            </div>
+                                            <div class="part-form"> 
+                                                <label for="fname">SurName</label>
+                                                <div style="display: flex;" class="ligneformulaire"><input type="text" id="fname" name="surname" placeholder="Your surname.."><input  class="submitbutton" type="submit" value="Submit"></div>
+                                            </div>
+                                            <div class="part-form"> 
+                                                <label for="fname">location</label>
+                                                <div style="display: flex;" class="ligneformulaire"><input type="text" id="fname" name="location" placeholder="Where do you live.."><input  class="submitbutton" type="submit" value="Submit"></div>
+                                            </div>
+                                            <div class="part-form"> 
+                                                <label for="fname">Phone Number</label>
+                                                <div style="display: flex;" class="ligneformulaire"><input type="text" id="fname" name="phonenumber" placeholder="Your phone number.."><input  class="submitbutton" type="submit" value="Submit"></div>
+                                            </div>
+                                            <div class="part-form"> 
+                                                <label for="fname">E-mail</label>
+                                                <div style="display: flex;" class="ligneformulaire"><input type="text" id="fname" name="email" placeholder="Your e-mail.."><input  class="submitbutton" type="submit" value="Submit"></div>
+                                            </div>                                                            
+                                            <div class="part-form"> 
+                                                <label for="fname">Password</label>
+                                                <div style="display: flex;" class="ligneformulaire"><input type="text" id="fname" name="email" placeholder="Your password.."></div>
+                                                <div style="display: flex;" class="ligneformulaire"><input type="text" id="fname" name="email" placeholder="Again.."><input  class="submitbutton" type="submit" value="Submit"></div>
+                                            </div>                                                            
+                                        </form>
+                                    </div>
+                                    <div class="socialmediasmodify"><i class="fab fa-facebook"></i><a class="gearssocialsmedias" href=""><i class="fas fa-cogs"></i></a> <i class="fab fa-twitter-square"></i><a class="gearssocialsmedias" href=""><i class="fas fa-cogs"></i></a> <i class="fab fa-instagram"></i><a class="gearssocialsmedias" href=""><i class="fas fa-cogs"></i></a></div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <h3>Mes réservations</h2>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">En cours</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Passées</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="card-reservation-space">
+                                        <div class="little-card-reservation" style="max-width: 33%;">
+                                            <div class="little-card">
+                                                <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="carddate">18 Jan 2018 - 22 Jan 2018</p>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                    </div>       
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="card-reservation-space">
+                                        <div class="little-card-reservation" style="max-width: 33%;">
+                                            <div class="little-card">
+                                                <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="carddate">12 Fev 2018 - 14 Fev 2018</p>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <div class="little-card-reservation" style="max-width: 33%;">
+                                            <div class="little-card">
+                                                <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="carddate">02 Mar 2018 - 05 Mar 2018</p>
+                                                </div>
+                                                </div>
+                                        </div>    
+                                        <div class="little-card-reservation" style="max-width: 33%;">
+                                            <div class="little-card">
+                                                <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="carddate">26 Sep 2018 - 30 sep 2018</p>
+                                                </div>
+                                                </div>
+                                        </div>    
+                                        <div class="little-card-reservation" style="max-width: 33%;">
+                                            <div class="little-card">
+                                                <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="carddate">02 Dec 2018 - 06 Dec 2018</p>
+                                                </div>
+                                                </div>
+                                        </div>    
+                                        <div class="little-card-reservation" style="max-width: 33%;">
+                                            <div class="little-card">
+                                                <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="carddate">18 Jan 2018 - 22 Jan 2018</p>
+                                                </div>
+                                                </div>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="card" style="width: 100%;">
+                        <div class="card-body">
+                            <div class="annonces"><h3>Mes annonces</h2><a href="nouvelleannonce.html" title="Créer une nouvelle annonce"><i class="fas fa-plus"></i></a></div>
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home" aria-selected="true">En cours</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile2" role="tab" aria-controls="profile" aria-selected="false">Passées</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home2" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="card-reservation-space">
+                                            <div class="little-card-reservation" style="max-width: 33%;">
+                                                <div class="little-card">
+                                                    <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="carddate">11 Nov 2018 - 14 Nov 2018</p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                            <div class="little-card-reservation" style="max-width: 33%;">
+                                                <div class="little-card">
+                                                    <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="carddate">02 Dec 2018 - 06 Dec 2018</p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>       
+                                    </div>
+                                    <div class="tab-pane fade" id="profile2" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="card-reservation-space">
+                                            <div class="little-card-reservation" style="max-width: 33%;">
+                                                <div class="little-card">
+                                                    <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="carddate">18 Mai 2017 - 22 Mai 2017</p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                            <div class="little-card-reservation" style="max-width: 33%;">
+                                                <div class="little-card">
+                                                    <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="carddate">02 Dec 2017 - 06 Dec 2017</p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                            <div class="little-card-reservation" style="max-width: 33%;">
+                                                <div class="little-card">
+                                                    <img class="cardpic" src="https://via.placeholder.com/300x130" alt="Card image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="carddate">16 Sep 2017 - 21 Sep 2017</p>
+                                                    </div>
+                                                </div>
+                                            </div>      
+                                        </div>
+                                </div>
+                            </div>                              
+                        </div>
+                    </div>
+                    <div class="paiement">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                                <h3>Mes informations de paiement</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia tempora sequi corporis quod, neque. Quia placeat praesentium sequi. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="ipaiement"><a href="#" class="btn btn-primary"><i class="fas fa-cog"></i>Mettre à jour mes informations de paiement</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container0 container-fluid">
+        <div class="row">
+            <div class="col-3">
+               <img src="img/04.png" class="logosize" alt=""></a>
+            </div>
+            <div class="col-3">
+                <h5>Stuliday</h5>
+                <a  class="refsfooter" href="index.html"><p>Acceuil</p></a>
+                <a class="refsfooter" href="inscriptionpage.html"><p>Inscription</p></a>
+                <a class="refsfooter" href="profil.html"><p>Profil</p></a>
+                <a class="refsfooter" href="nouvelleannonce.html"><p>Nouvelle Annonce</p></a>
+                <a class="refsfooter" href="mesreservations.html"><p>Mes réservations</p></a>
+            </div>
+            <div class="col-3">
+                <h5>Communiquer</h5>
+                <a class="refsfooter" href="contact.html"><p>Contact</p></a>
+                <a class="refsfooter" href="partenaires.html"><p>Partenaires</p></a>
+                <a class="refsfooter" href="help.html"><p>Aide</p></a>
+                <a class="refsfooter" href="mentionslegales.html"><p>Mentions Légales</p></a>
+            </div>
+            <div class="col-3">
+                <h5>Nous Suivre</h5>
+                <div class="socialfooter"><i class="fab fa-facebook"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-linkedin"></i></div>
+                <h5>Télécharger l'application</h3>
+                <i class="fab fa-android"></i> <i class="fab fa-apple"></i> 
+            </div>
+        </div>
+    </div>
+    <div class="mentionslegales">
+        <p class="conditionsgenerales1">Conditions Générales - Mentions légales - Politique de confidentialité | © 2018 Stuliday. Tous droits réservés.</p>
+        <p class="conditionsgenerales2">Pour vous proposer la meilleure expérience sur Stuliday, Nous utilisons des cookies. En continuant à naviguer sur notre site, vous acceptez l'utilisation des cookies.</p>
+    </div>
+</footer>
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>

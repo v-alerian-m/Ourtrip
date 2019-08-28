@@ -1,0 +1,490 @@
+@charset "utf-8";
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* CONTENT */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+	font-size: 100%;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	position: relative;
+	height: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+	"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.625em; /*26px*/
+	-webkit-font-smoothing: antialiased;
+}
+
+/* links */
+/* -----------------------------------------------------*/
+
+a {
+	text-decoration: none;
+	color: #D35F60;
+}
+
+a:active,
+a:hover,
+a:focus {
+	color: #934243;
+}
+
+/* typographie */
+/* -----------------------------------------------------*/
+
+h1, .h1-like, 
+h2, .h2-like, 
+h3, .h3-like, 
+h4, .h4-like, 
+h5, .h5-like, 
+h6, .h6-like {
+	font-weight: 700;
+	color: #1C1F26;
+	margin: 0 0 0.71875em 0;
+	line-height: 1.25em;
+}
+
+h1, .h1-like {
+	font-size: 2em;
+}
+h2, .h2-like {
+	font-size: 1.75em;
+}
+h3, .h3-like {
+	font-size: 1.5em;
+}
+h4, .h4-like {
+	font-size: 1.25em;
+}
+h5, .h5-like {
+	font-size: 1.125em;
+}
+h6, .h6-like {
+	font-size: 1em;
+}
+p {
+	margin: 0 0 0.71875em 0;
+}
+/* Grouping content */
+/*---------------------------------------------------*/
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+
+}
+/* -----------------------------------------------------*/
+/* CONTENT */
+/* -----------------------------------------------------*/
+
+.container0 {
+	margin: 0 auto;
+	max-width:95%;
+}
+
+.container{
+	margin: 0 auto;
+	max-width:1080px;
+}
+
+.row{
+	display: flex;
+}
+.col-3{width:25%;}
+.col-4{width:33.333333%;}
+.col-6{width:50%;}
+.col-8{width:66.666666%;}
+.col-9{width:75%;}
+.col-12{width:100%;}
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* HEADER */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+header {
+	background-color: #0000003a;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+    z-index: 999;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.233);
+}
+
+.logosize {
+	max-width: 113px;
+}
+
+.logotyposize {
+	max-width: 80px;
+}
+
+header .logo{
+	line-height: 50px;
+}
+
+header .logo img {
+	margin-top: 4px;
+	vertical-align: middle;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	display:inline-block;
+}
+
+header nav ul li a {
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 5px 10px;
+	line-height: 60px; 
+}
+
+header nav ul li a:hover {
+	color: #1abc9c;
+	text-decoration: none;
+}
+
+header #main {
+	margin-left: 50px;
+	flex-grow: 2;
+}
+
+header #social {
+	text-align: right;
+}
+
+#top-ad {
+	margin-top: 100px; 
+	padding: 40px 0;
+	text-align: center;
+}
+
+header .dropdown {
+	display: contents;
+	color: white;
+}
+
+header .dropdown:hover {
+	display: contents;
+	color: #1abc9c;
+
+}
+.dropdown-right{
+	right:120px;
+	left:auto !important;
+}
+
+.dropdown-right-2{
+	right:90px;
+	left:auto !important;
+}
+
+.fa-bars {
+	margin-right: 30px;
+	font-size: 25px;
+	padding-top: 17px;
+}
+
+.fa-user-circle {
+	margin-right: 30px;
+	font-size: 25px;
+	padding-top: 17px;
+}
+
+.dropdown-item {
+	color: #1abc9c !important;
+}	
+
+.fa-power-off {
+	margin-left: 10px;
+	font-weight: 200;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* SECTION 1  */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+
+
+.section1 {
+    background: url(../img/bagel3.jpg)  no-repeat center center fixed;;
+    background-size: cover;
+	display: block;
+}
+
+.col-8 {
+	margin-top: 130px;
+}
+
+.col-4 {
+	margin-top: 130px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.329);
+}
+
+
+.card-img-top {
+    padding: 10px;
+}
+
+.card-title1 {
+	color: #c53537;
+	font-weight: 500;
+	letter-spacing: 3px;
+    text-align: center;
+	margin-top: 15px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 23px;
+}
+
+.card-title2 {
+    font-size: 18px;
+	color: #c53537;
+	font-weight: 500;
+}
+
+.card-date {
+    color : #1abc9c;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card .participants {
+    color: #ffac3e;
+    font-size: 20px;
+}
+
+.participants i {
+	margin-right: 5px;
+}
+
+.fa-paper-plane {
+	margin-left: 10px;
+}
+
+.pricecard {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: end;
+        color: #1abc9c;
+		margin-left: 20px;
+		margin-bottom: 0px !important;
+}
+
+.card .btn-primary {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.section1 .scol-4 .card {
+    background-color: #ffac3e !important;
+}
+
+.transport {
+	color: black ;
+	display: block;
+	text-align: right;
+	margin-bottom: 20px
+}
+
+.transport i {
+	margin-left: 7px;
+}
+
+
+.profiltop {
+    display: flex;
+}
+
+.card-titleprofil {
+    color: #c53537;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.informativelittlesentence {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.phonenumber {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-mail {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.profilend {
+    display: inline-block;
+}
+
+.col-4 i {
+	color: #ffac3e;
+}
+
+.social-icons i {
+
+    font-size: 30px;
+    margin-right: 10px;
+	margin-bottom: 10px;
+	color: #1abc9c;
+}
+
+.social-icons i:hover {
+	color: #13967c;
+	
+}
+
+
+.section2 .reservation {
+	background-color: #1abc9c !important;
+}
+
+.section2 .reservation:hover {
+	background-color: rgb(34, 72, 243) !important;
+}
+
+.fa-credit-card {
+	margin-left: 10px;
+}
+
+.emptyspace {
+    height: 150px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+                                               /* FOOTER */
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------*/
+
+
+.footer {
+	background-color: #1abc9c;
+}
+
+footer .col-3{
+	margin: 90px 0px;
+	font-weight: 500;
+
+}
+
+footer h5 {
+	color: white;
+	margin-bottom: 17px;
+}
+
+footer i {
+	font-size: 30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+footer p {
+	color: black;
+	font-weight: 400;
+}
+footer p:hover {
+	color: rgb(255, 255, 255);
+	font-weight: 400;
+}
+footer a:hover {
+	color: rgb(255, 255, 255);
+	font-weight: 400;
+	text-decoration: none;
+	border: none !important;
+}
+
+footer .mentionslegales {
+	text-align: center;
+	font-size: 11px;
+}
+
+footer .fa-facebook:hover {
+    font-size: 30px;
+    color: #3F5996;
+}
+footer .fa-twitter-square:hover {
+    font-size: 30px;
+    color: #35A1F0;
+}
+footer .fa-linkedin:hover {
+    font-size: 30px;
+    color: #1D74B1
+}
+footer .fa-android:hover {
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+}
+footer .fa-apple:hover {
+    font-size: 30px;
+    color: rgb(230, 230, 230);
+}
+
+.socialfooter {
+    margin-bottom: 15px;
+}
+
+.conditionsgenerales1 {
+	margin: 0 !important;
+}
+.conditionsgenerales2 {
+	margin: 0 !important;
+	padding-bottom: 3px;
+}
+.conditionsgenerales1:hover {
+	color: black;
+}
+.conditionsgenerales2:hover {
+	color: black;
+}
